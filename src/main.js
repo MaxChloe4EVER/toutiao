@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 加载移动端适配模块
+import 'amfe-flexible'
+
 // 加载全局样式
 import './styles/index.less'
 
