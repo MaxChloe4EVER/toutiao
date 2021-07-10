@@ -1,15 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './router/index'
 import store from './store'
-
-// 加载移动端适配模块
+// 引入移动端适配模块
 import 'amfe-flexible'
-
 // 加载全局样式
 import './styles/index.less'
-
-// 导入所有组件
+// 引入vant库
 import Vant from 'vant'
 import '../node_modules/vant/lib/index.css'
 Vue.use(Vant)
